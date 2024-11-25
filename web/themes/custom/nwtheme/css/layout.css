@@ -1,0 +1,81 @@
+/* based on Aquia layout */
+
+html {
+  height: 100%;
+  background-color: rgb(218, 205, 205);
+}
+
+body {
+  min-height: 100%;
+  line-height: 1.5;
+  word-wrap: break-word;
+  /* font-size: 87.5%; */
+  }
+
+.layout-container {
+  /* font-size: 1em; */
+  max-width:1200px;
+  margin: 0 auto;
+  /* position: relative;
+  clear: both; */
+}  
+
+.container.main-content {
+  margin: 5rem auto;
+  padding: 0 1.5rem;
+}
+
+.region-header {
+  max-width: 2000px;
+  margin: 0px;
+  height: 150px;
+}
+.site-logo {
+  float: left;
+  padding-top: 35px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  clear:both;
+  }
+
+.paragraph.container {
+  padding: 0;
+}
+
+.paragraph.container {
+  margin-bottom: 5rem;
+  .image-above,
+  .image-left {
+    margin-bottom: 2rem;
+  }
+  .image-right {
+    margin-top: 3rem;
+  }
+}
+
+@media (min-width: 750px) {
+  .paragraph.container {
+    .image-right {
+      margin-top: 0rem;
+    }
+}
+}
+
+/* .link {
+font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} */
+h1 a,
+h2 a {
+border-bottom: none;
+}
+p {
+margin: 0 0 1.2em;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+
+footer {
+  padding-top: 10rem;
+}

@@ -1,0 +1,26 @@
+global-css:
+  css:
+    theme:
+      css/normalize.css: {}
+      css/skeleton.css: {}
+      css/variables.css: {}
+      css/layout.css: {}
+      css/nav.css: {}
+      css/test.css: {}
+raleway:
+  css:
+    theme:
+      "//fonts.googleapis.com/css?family=Raleway:400,300,600":
+        { type: external }
+      css/typography.css: {}
+font-awesome:
+  css:
+    theme:
+      "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css":
+        { type: external }
+nav:
+  # css:
+  #   theme:
+  #     css/nav.css: {}
+  js:
+    js/nav.js: {}

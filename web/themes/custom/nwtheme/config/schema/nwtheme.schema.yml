@@ -1,0 +1,8 @@
+# Schema for the configuration files of the nwtheme theme.
+nwtheme.settings:
+  type: theme_settings
+  label: 'nwtheme settings'
+  mapping:
+    example:
+      type: string
+      label: Example
