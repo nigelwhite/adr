@@ -56,5 +56,8 @@
   },
   "overrides": {
     "glob-parent": "6.0.2"
+  },
+  "dependencies": {
+    "browser-sync": "^3.0.3"
   }
 }
