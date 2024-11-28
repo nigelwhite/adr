@@ -1,0 +1,40 @@
+<af-form ctrl="afform">
+  <af-entity type="Individual" name="Individual1" actions="{create: true, update: false}" security="RBAC" data="{}" />
+  <fieldset af-fieldset="Individual1" class="af-container">
+    <div class="af-container">
+      <div class="af-container af-layout-inline">
+        <af-field name="first_name" />
+        <af-field name="last_name" />
+      </div>
+      <div af-join="Address" af-repeat="Add" af-copy="Copy" min="1">
+        <af-field name="supplemental_address_1" defn="{label: 'Address 1', input_attrs: {}}" />
+        <af-field name="supplemental_address_2" defn="{label: 'Address 2', input_attrs: {}}" />
+        <af-field name="supplemental_address_3" defn="{label: 'Address 3', input_attrs: {}}" />
+        <af-field name="city" />
+        <af-field name="postal_code" />
+        <af-field name="state_province_id" />
+        <af-field name="country_id" />
+      </div>
+      <div af-join="Phone" af-repeat="Add" af-copy="Copy" min="1">
+        <div class="af-container af-layout-inline">
+          <af-field name="phone" />
+        </div>
+      </div>
+      <div af-join="Email" af-repeat="Add" af-copy="Copy" min="1">
+        <div class="af-container af-layout-inline">
+          <af-field name="email" />
+        </div>
+      </div>
+      <div af-join="Website" af-repeat="Add" af-copy="Copy" min="1">
+        <div class="af-container af-layout-inline">
+          <af-field name="url" />
+        </div>
+      </div>
+      <div class="af-container">
+        <af-field name="Printout.Xmas" defn="{label: 'Xmas'}" />
+        <af-field name="Printout.Post_card" defn="{label: 'Post card'}" />
+      </div>
+    </div>
+  </fieldset>
+  <button class="af-button btn btn-primary" crm-icon="fa-check" ng-click="afform.submit()">{{:: ts('Submit') }}</button>
+</af-form>

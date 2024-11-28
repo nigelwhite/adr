@@ -18,7 +18,7 @@
 /web/sites/default/civicrm.settings.php
 
 # Ignore Drupal's file directory
-/web/sites/*/files/
+# /web/sites/*/files/
 
 # ignore local dev resources
 /.ddev
