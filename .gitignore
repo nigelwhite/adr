@@ -32,3 +32,6 @@
 # ignore civi as there's too many files for vscode to cope with
 /web/libraries/civicrm/
 
+# ignore gulp in custom theme dev
+/web/sites/default/files/civicrm/ext/theisland/gulpfile.*
+

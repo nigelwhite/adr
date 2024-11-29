@@ -1,3 +1,32 @@
+$myBackground: rgb(173, 216, 212);
+
 .af-container {
-    background-color: green !important;
+    background-color: $myBackground !important;
+    .form-control {
+        width: 40rem !important;
+    }
+    [af-join] {
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important;
+    }
+    [crm-icon="fa-copy"],
+    [crm-icon="fa-plus"] {
+        background-color: $myBackground !important;
+    }
 }
+
+#crm-main-content-wrapper {
+    padding: 2rem !important;
+}
+
+.crm-container #crm-main-content-wrapper > crm-angular-js > form#bootstrap-theme fieldset > div {
+    padding: 3rem !important;
+}
+
+/* .af-container .af-container {
+    [name="Printout.Xmas"] {
+    margin-top: 2rem !important;
+    margin-bottom: 5rem !important;
+    border: 1px solid black !important;
+    }
+} */

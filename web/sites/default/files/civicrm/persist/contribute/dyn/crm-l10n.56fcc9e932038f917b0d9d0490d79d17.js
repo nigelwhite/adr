@@ -1,5 +1,5 @@
 // http://civicrm.org/licensing
-// <script> Generated 27 Nov 2024 17:44:07
+// <script> Generated 28 Nov 2024 11:34:15
 (function($) {
   // Config settings
   CRM.config.userFramework = "Drupal8";

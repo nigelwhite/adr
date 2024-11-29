@@ -1,1 +1,1 @@
-[]
+{"patch":{"name":"patch","severity":"notice","title":"CiviCRM Patch Available","message":"<p>The site is running 5.79.0. Additional patches are available:<\/p><ul>\n<li><a href=\"https:\/\/download.civicrm.org\/about\/5.79.1\" target=\"_blank\">5.79.1<\/a> (2024-11-26): Fix recent issues with WP shortcodes, new localized installations, and more.<\/li><\/ul>"}}
