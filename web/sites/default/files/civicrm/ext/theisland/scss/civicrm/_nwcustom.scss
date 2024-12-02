@@ -13,6 +13,23 @@ $myBackground: rgb(173, 216, 212);
     [crm-icon="fa-plus"] {
         background-color: $myBackground !important;
     }
+    [name="phone"] {
+        margin-top: 2rem !important;
+    }
+    [name="Printout.Post_card"],
+    [name="Printout.Xmas"] {
+        margin-bottom: 2rem !important;
+        display: block;
+    }
+    #my-notes-notes-2 {
+        margin-bottom: 3rem !important;
+    }
+    .ng-isolate-scope.af-field-type-radio .crm-af-field.ng-scope label {
+        padding-left: 6rem !important;
+    }
+    .ng-isolate-scope.af-field-type-radio label {
+        display: inline-block !important;
+    }
 }
 
 #crm-main-content-wrapper {

@@ -1,10 +1,10 @@
 // http://civicrm.org/licensing
-// <script> Generated 02 Dec 2024 16:17:36
+// <script> Generated 02 Dec 2024 16:53:35
 (function($) {
   // Config settings
   CRM.config.userFramework = "Drupal8";
-    CRM.config.resourceBase = "https:\/\/d10-adr.ddev.site\/libraries\/civicrm\/core\/";
-    CRM.config.packagesBase = "https:\/\/d10-adr.ddev.site\/libraries\/civicrm\/packages\/";
+    CRM.config.resourceBase = "http:\/\/d10-adr.ddev.site\/libraries\/civicrm\/core\/";
+    CRM.config.packagesBase = "http:\/\/d10-adr.ddev.site\/libraries\/civicrm\/packages\/";
   CRM.config.lcMessages = "en_US";
   CRM.config.locale = "en_US";
   CRM.config.cid = 2;

@@ -17,6 +17,8 @@
       </div>
       <div class="af-container">
         <af-field name="my_notes.Notes" defn="{label: 'Notes'}" />
+        <af-field name="Printout.Post_card" defn="{label: 'Post card'}" />
+        <af-field name="Printout.Xmas" defn="{label: 'Xmas'}" />
       </div>
       <div af-join="Phone" af-repeat="Add" af-copy="Copy" min="1">
         <div class="af-container af-layout-inline">
@@ -33,10 +35,7 @@
           <af-field name="url" />
         </div>
       </div>
-      <div class="af-container">
-        <af-field name="Printout.Xmas" defn="{label: 'Xmas'}" />
-        <af-field name="Printout.Post_card" defn="{label: 'Post card'}" />
-      </div>
+      <div class="af-container"></div>
     </div>
   </fieldset>
   <button class="af-button btn btn-primary" crm-icon="fa-check" ng-click="afform.submit()">{{:: ts('Submit') }}</button>
