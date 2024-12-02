@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-12-02 13:39:04
+/* Smarty version 5.3.1, created on 2024-12-02 15:45:54
   from 'file:afform/AfformAngularModule.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_674db878d41d79_54971149',
+  'unifunc' => 'content_674dd632946530_07578125',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e32c00c9a9182ec8f216045f0ae7ccfc9347e8ca' => 
     array (
       0 => 'afform/AfformAngularModule.tpl',
-      1 => 1730963841,
+      1 => 1732610235,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   array (
   ),
 ))) {
-function content_674db878d41d79_54971149 (\Smarty\Template $_smarty_tpl) {
+function content_674dd632946530_07578125 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = '/var/www/html/vendor/civicrm/civicrm-core/ext/afform/core/templates/afform';
 $_block_repeat=true;
 if (!$_smarty_tpl->getSmarty()->getBlockHandler('crmScope')) {

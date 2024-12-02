@@ -15,6 +15,9 @@
         <af-field name="state_province_id" />
         <af-field name="country_id" />
       </div>
+      <div class="af-container">
+        <af-field name="my_notes.Notes" defn="{label: 'Notes'}" />
+      </div>
       <div af-join="Phone" af-repeat="Add" af-copy="Copy" min="1">
         <div class="af-container af-layout-inline">
           <af-field name="phone" defn="{required: false, input_attrs: {}}" />

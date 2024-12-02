@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 5.3.1, created on 2024-12-02 13:39:04
+/* Smarty version 5.3.1, created on 2024-12-02 15:42:28
   from 'file:CRM/common/status.tpl' */
 
 /* @var \Smarty\Template $_smarty_tpl */
 if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
   'version' => '5.3.1',
-  'unifunc' => 'content_674db878d0e6a7_47248168',
+  'unifunc' => 'content_674dd564992137_68424600',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a35862934c4710cfb827e05362c172b8dbd2c40f' => 
     array (
       0 => 'CRM/common/status.tpl',
-      1 => 1730963841,
+      1 => 1732610235,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
     'file:CRM/common/info.tpl' => 1,
   ),
 ))) {
-function content_674db878d0e6a7_47248168 (\Smarty\Template $_smarty_tpl) {
+function content_674dd564992137_68424600 (\Smarty\Template $_smarty_tpl) {
 $_smarty_current_dir = '/var/www/html/vendor/civicrm/civicrm-core/templates/CRM/common';
 $_block_repeat=true;
 if (!$_smarty_tpl->getSmarty()->getBlockHandler('crmScope')) {

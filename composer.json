@@ -21,6 +21,7 @@
         "civicrm/cli-tools": "^2024.09",
         "composer/installers": "^2.0",
         "drupal/admin_toolbar": "^3.5",
+        "drupal/better_permissions_page": "^1.0",
         "drupal/coffee": "^2.0",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
@@ -107,6 +108,14 @@
                 "      composer remove drupal/core-project-message"
             ]
         },
-        "enable-patching": "true"
+        "extra": {
+            "patches": {
+                "drupal/core": {
+                    "RuntimeException: Adding non-existent permissions to a role is not allowed": "https://www.drupal.org/files/issues/2023-09-14/3358586-11.patch"
+                }
+            }
+        },
+        "enable-patching": "true",
+        "compile-whitelist": ["civicrm/civicrm-core", "civicrm/composer-compile-lib"]
     }
 }
