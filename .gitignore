@@ -29,8 +29,10 @@
 /.vscode/
 /.tarballs
 
-# ignore civi as there's too many files for vscode to cope with
+# ignore civi code as there's too many files for vscode to cope with
 /web/libraries/civicrm/
+# ignore template cache
+/web/sites/default/files/civicrm/templates_c
 
 # ignore gulp in custom theme dev
 /web/sites/default/files/civicrm/ext/theisland/gulpfile.*
