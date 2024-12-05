@@ -39,3 +39,7 @@
 /web/sites/default/files/civicrm/ext/theisland/gulpfile.*
 web/sites/default/files/civicrm/ext/theisland/scss/*
 
+# ignore files I've needed to create on remote
+.htaccess
+/web/.htaccess
+
