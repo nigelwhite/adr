@@ -34,6 +34,7 @@
 # ignore template cache
 /web/sites/default/files/civicrm/templates_c
 
-# ignore gulp in custom theme dev
+# ignore gulp and sass in custom theme dev
 /web/sites/default/files/civicrm/ext/theisland/gulpfile.*
+web/sites/default/files/civicrm/ext/theisland/scss/*
 
