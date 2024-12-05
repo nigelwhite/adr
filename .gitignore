@@ -34,10 +34,11 @@
 # ignore template cache
 /web/sites/default/files/civicrm/templates_c
 /web/sites/default/files/php/twig
+/web/sites/default/files/civicrm/persist/contribute
 
 # ignore gulp and sass in custom theme dev
 /web/sites/default/files/civicrm/ext/theisland/gulpfile.*
-web/sites/default/files/civicrm/ext/theisland/scss/*
+/web/sites/default/files/civicrm/ext/theisland/scss/*
 
 # ignore files I've needed to create on remote
 .htaccess
