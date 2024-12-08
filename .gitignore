@@ -31,11 +31,13 @@
 
 # ignore civi code as there's too many files for vscode to cope with
 /web/libraries/civicrm/
-# ignore template cache
+# ignore template cache etc
 /web/sites/default/files/civicrm/templates_c
 /web/sites/default/files/php/twig
 /web/sites/default/files/civicrm/persist/contribute
 /web/sites/default/files/civicrm/ConfigAndLog
+/web/sites/default/files/civicrm/persist
+/web/sites/default/files/civicrm/upload
 
 # ignore gulp and sass in custom theme dev
 /web/sites/default/files/civicrm/ext/theisland/gulpfile.*
