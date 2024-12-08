@@ -1,0 +1,14 @@
+.dashboard-text {
+    margin-left: 6rem;
+}
+
+.dashboard-buttons {
+    margin: 2rem 0;
+}
+
+.dashboard-buttons a {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
