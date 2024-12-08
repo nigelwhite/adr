@@ -43,5 +43,4 @@
 
 # ignore files I've needed to create on remote
 .htaccess
-/web/.htaccess
 
