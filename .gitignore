@@ -37,7 +37,6 @@
 /web/sites/default/files/civicrm/persist/contribute
 /web/sites/default/files/civicrm/ConfigAndLog
 /web/sites/default/files/civicrm/persist
-/web/sites/default/files/civicrm/upload
 
 # ignore gulp and sass in custom theme dev
 /web/sites/default/files/civicrm/ext/theisland/gulpfile.*
